@@ -2,7 +2,7 @@
 // Edit here — components stay untouched.
 
 export const brand = {
-  name: 'SMC',
+  name: 'SMC India',
   tagline: 'Smart Money Concepts.',
 }
 

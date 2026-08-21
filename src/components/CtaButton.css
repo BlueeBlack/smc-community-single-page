@@ -6,8 +6,8 @@
   gap: 26px;
   width: 100%;
   padding: 22px 26px;
-  background: var(--lime);
-  color: var(--lime-ink);
+  background: var(--accent);
+  color: var(--accent-ink);
   border: 3px solid var(--shadow);
   border-radius: 14px;
   box-shadow: 0 var(--lift) 0 var(--shadow);

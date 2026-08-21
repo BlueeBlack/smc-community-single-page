@@ -1,4 +1,4 @@
-# SMC — Smart Money Concepts landing page
+# SMC India — Smart Money Concepts landing page
 
 Single-page React landing page. Visual language of the GETNOS audit page
 (cream canvas, condensed black display type, lime CTA with a hard shadow,

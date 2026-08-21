@@ -6,9 +6,9 @@
   --ink-soft: #2b2b2b;
   --muted: #8f8e88;
   --rule: #dedcd3;
-  --lime: #c9f24d;
-  --lime-ink: #0c0c0c;
-  --star: #f5b30b;
+  --accent: #8b5cf6;
+  --accent-ink: #0c0c0c;
+  --star: #8b5cf6;
   --shadow: #0c0c0c;
 
   --display: 'Anton', 'Arial Narrow', system-ui, sans-serif;
@@ -68,7 +68,7 @@ a {
 }
 
 :focus-visible {
-  outline: 3px solid var(--lime);
+  outline: 3px solid var(--accent);
   outline-offset: 3px;
   border-radius: 4px;
 }
@@ -78,7 +78,9 @@ a {
   width: 100%;
   max-width: var(--page);
   margin: 0 auto;
-  padding: 0 var(--gutter);
+  /* horizontal only — sections own their own vertical rhythm */
+  padding-left: var(--gutter);
+  padding-right: var(--gutter);
 }
 
 .rule {
