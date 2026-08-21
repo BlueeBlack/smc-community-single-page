@@ -1,0 +1,18 @@
+.rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 4px 12px;
+  font-size: 15.5px;
+}
+
+.rating__stars {
+  color: var(--star);
+  font-size: 21px;
+  letter-spacing: 2px;
+}
+
+.rating__text strong {
+  font-weight: 700;
+}

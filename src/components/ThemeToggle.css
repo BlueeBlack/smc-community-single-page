@@ -1,0 +1,20 @@
+.toggle {
+  position: fixed;
+  right: clamp(16px, 5vw, 28px);
+  bottom: clamp(16px, 5vw, 28px);
+  width: 52px;
+  height: 52px;
+  display: grid;
+  place-items: center;
+  font-size: 22px;
+  background: #17171a;
+  border: 0;
+  border-radius: 14px;
+  box-shadow: 0 6px 20px rgb(0 0 0 / 0.25);
+  cursor: pointer;
+  z-index: 20;
+}
+
+.toggle:hover {
+  transform: translateY(-2px);
+}

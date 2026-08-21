@@ -1,0 +1,10 @@
+.disclaimer {
+  padding-bottom: clamp(80px, 18vw, 120px);
+}
+
+.disclaimer__text {
+  font-style: italic;
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--ink-soft);
+}

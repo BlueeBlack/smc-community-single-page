@@ -1,0 +1,50 @@
+.cta {
+  --lift: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 26px;
+  width: 100%;
+  padding: 22px 26px;
+  background: var(--lime);
+  color: var(--lime-ink);
+  border: 3px solid var(--shadow);
+  border-radius: 14px;
+  box-shadow: 0 var(--lift) 0 var(--shadow);
+  text-decoration: none;
+  transform: translateY(0);
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+
+.cta__label {
+  font-family: var(--display);
+  font-size: clamp(22px, 6vw, 30px);
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.cta__arrow {
+  font-size: clamp(20px, 5vw, 26px);
+  font-weight: 700;
+}
+
+.cta:hover {
+  transform: translateY(3px);
+  box-shadow: 0 4px 0 var(--shadow);
+}
+
+.cta:active {
+  transform: translateY(var(--lift));
+  box-shadow: 0 0 0 var(--shadow);
+}
+
+.cta--sm {
+  --lift: 5px;
+  padding: 15px 22px;
+  border-radius: 11px;
+  gap: 18px;
+}
+
+.cta--sm .cta__label {
+  font-size: clamp(18px, 4.5vw, 22px);
+}

@@ -1,0 +1,29 @@
+.fact {
+  margin-top: 30px;
+  padding: 22px;
+  border: 1.5px dashed var(--rule);
+  border-radius: 8px;
+  background: var(--surface);
+  text-align: left;
+}
+
+.fact__label {
+  display: inline-block;
+  padding: 6px 12px;
+  background: var(--lime);
+  color: #0c0c0c;
+  font-family: var(--mono);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.fact__body {
+  margin-top: 16px;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  color: var(--ink-soft);
+}

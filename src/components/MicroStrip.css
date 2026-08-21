@@ -1,0 +1,16 @@
+.strip {
+  margin-top: 22px;
+  font-family: var(--mono);
+  font-size: 12.5px;
+  line-height: 1.85;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--muted);
+  text-align: center;
+}
+
+.strip__diamond {
+  margin-right: 10px;
+  font-size: 10px;
+  vertical-align: 1px;
+}

@@ -1,0 +1,28 @@
+.cue {
+  display: grid;
+  place-items: center;
+  padding-bottom: 26px;
+}
+
+.cue__dot {
+  display: grid;
+  place-items: center;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  font-size: 19px;
+  color: var(--ink-soft);
+  animation: cue-bob 1.9s ease-in-out infinite;
+}
+
+@keyframes cue-bob {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+}
