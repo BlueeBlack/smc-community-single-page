@@ -32,7 +32,6 @@ src/
     FunFact.jsx            dashed callout box
     InsideSection.jsx      "Inside" bullet list + second CTA
     Disclaimer.jsx         SEBI / risk footer
-    ScrollCue.jsx          bouncing ↓ circle
     ThemeToggle.jsx        floating light/dark switch
 ```
 
