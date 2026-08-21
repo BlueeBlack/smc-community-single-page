@@ -8,7 +8,8 @@
   --rule: #dedcd3;
   --accent: #8b5cf6;
   --accent-ink: #0c0c0c;
-  --star: #8b5cf6;
+  --star: #f0a81e;
+  --star-empty: #b7b3a3;
   --shadow: #0c0c0c;
 
   --display: 'Anton', 'Arial Narrow', system-ui, sans-serif;
@@ -26,6 +27,7 @@
   --ink-soft: #d7d6ce;
   --muted: #7e7d76;
   --rule: #2e2e2a;
+  --star-empty: #4d4b42;
   --shadow: #000000;
 }
 

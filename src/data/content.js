@@ -17,15 +17,15 @@ export const hero = {
     { text: 'Free community, zero noise.', bold: true },
     { text: ' 👇' },
   ],
-  cta: { label: 'Join the community', href: '#join' },
+  cta: { label: 'Join the community', href: 'https://t.me/smcindiaofficial' },
   rating: {
-    stars: 5,
-    highlight: '20,000+',
-    text: 'on Instagram · 9,000+ on Telegram',
+    value: 4.7,
+    outOf: 5,
+    label: '(800+ Traders Trained)',
   },
   strip: 'Covered weekly: Nifty · Bank Nifty · SMC · ICT · Market structure · Liquidity',
   funFact: {
-    label: 'Fun fact',
+    label: 'Ohh !! by the way',
     body:
       'Nearly 30,000 traders follow along across Instagram and Telegram. Post your markup in the group and it gets reviewed.',
   },
@@ -34,12 +34,14 @@ export const hero = {
 export const inside = {
   title: 'Inside',
   items: [
+    'Live Analysis',
     'Daily chart breakdowns on Nifty & Bank Nifty',
     'SMC/ICT concepts explained from scratch',
     'Free PDFs and cheat sheets',
     'Post your markup, get it reviewed',
+    'A lot more perks…',
   ],
-  cta: { label: 'Join the community', href: '#join' },
+  cta: { label: 'Join the community', href: 'https://t.me/smcindiaofficial' },
 }
 
 export const disclaimer =

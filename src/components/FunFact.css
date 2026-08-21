@@ -1,17 +1,19 @@
+/* Deliberately theme-independent: the card stays a white plaque with a black
+   chip in both light and dark mode, so it reads as a callout either way. */
 .fact {
   margin-top: 30px;
   padding: 22px;
-  border: 1.5px dashed var(--rule);
+  border: 1.5px dashed rgba(12, 12, 12, 0.22);
   border-radius: 8px;
-  background: var(--surface);
+  background: #ffffff;
   text-align: left;
 }
 
 .fact__label {
   display: inline-block;
   padding: 6px 12px;
-  background: var(--accent);
-  color: var(--accent-ink);
+  background: #0c0c0c;
+  color: #ffffff;
   font-family: var(--mono);
   font-size: 12px;
   font-weight: 700;
@@ -25,5 +27,5 @@
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
-  color: var(--ink-soft);
+  color: #1a1a1a;
 }

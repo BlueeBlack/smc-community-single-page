@@ -8,11 +8,26 @@
 }
 
 .rating__stars {
-  color: var(--star);
+  position: relative;
+  display: inline-block;
   font-size: 21px;
+  line-height: 1;
   letter-spacing: 2px;
+  white-space: nowrap;
 }
 
-.rating__text strong {
-  font-weight: 700;
+.rating__track {
+  color: var(--star-empty);
+}
+
+.rating__fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  color: var(--star);
+}
+
+.rating__text {
+  font-weight: 600;
 }
